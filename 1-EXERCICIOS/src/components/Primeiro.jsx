@@ -1,3 +1,3 @@
 import { Text } from 'react-native'
 
-export default () => <Text>Testando</Text>
+export default () => <Text>Primeiro</Text>
