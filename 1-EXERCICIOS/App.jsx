@@ -1,7 +1,8 @@
 import { StyleSheet } from 'react-native'
 import { SafeAreaView } from 'react-native-safe-area-context'
 
-import Pai from './src/components/Direta/Pai'
+import Pai from './src/components/Indireta/Pai'
+// import Pai from './src/components/Direta/Pai'
 //import Contador from './src/components/Contador'
 /* import Botao from './src/components/Botao' */
 /* import Titulo from './src/components/Titulo' */
