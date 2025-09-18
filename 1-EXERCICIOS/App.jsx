@@ -9,7 +9,12 @@ import Primeiro from './src/components/Primeiro' */
 export default function App() {
   return (
     <SafeAreaView style={style.App}>
-      <Aleatorio min={10} max={20} />
+      <Aleatorio min={1} max={60} />
+      <Aleatorio min={1} max={60} />
+      <Aleatorio min={1} max={60} />
+      <Aleatorio min={1} max={60} />
+      <Aleatorio min={1} max={60} />
+      <Aleatorio min={1} max={60} />
       {/* <MinMax min='3' max='20' />
       <MinMax min='1' max='94' /> */}
       {/* <CompPadrao />

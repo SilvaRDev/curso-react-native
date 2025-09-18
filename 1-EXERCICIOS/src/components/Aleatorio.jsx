@@ -1,8 +1,9 @@
 import { Text } from 'react-native'
+import estilo from './estilo'
 
-export default (props) => {
-  const randNum = Math.floor(Math.random() * (props.max - props.min)) + props.min
+export default ({ min, max }) => {
+  const randNum = Math.floor(Math.random() * (max - min)) + min
   return (
-    <Text>O número gerado foi: {randNum}!</Text>
+    <Text style={estilo.fontG}>O número gerado foi: {randNum}!</Text>
   )
 }
