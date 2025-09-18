@@ -1,7 +1,8 @@
 import { Text, StyleSheet } from 'react-native'
 import { SafeAreaView } from 'react-native-safe-area-context'
 
-import Aleatorio from './src/components/Aleatorio'
+import Titulo from './src/components/Titulo'
+/* import Aleatorio from './src/components/Aleatorio' */
 /* import MinMax from './src/components/MinMax' */
 /* import CompPadrao, { Comp1, Comp2 } from './src/components/Multi'
 import Primeiro from './src/components/Primeiro' */
@@ -9,12 +10,16 @@ import Primeiro from './src/components/Primeiro' */
 export default function App() {
   return (
     <SafeAreaView style={style.App}>
+      <Titulo
+        principal="Cadastro produto"
+        secundario="Tela de cadastro do produto"
+      />
+      {/* <Aleatorio min={1} max={60} />
       <Aleatorio min={1} max={60} />
       <Aleatorio min={1} max={60} />
       <Aleatorio min={1} max={60} />
       <Aleatorio min={1} max={60} />
-      <Aleatorio min={1} max={60} />
-      <Aleatorio min={1} max={60} />
+      <Aleatorio min={1} max={60} /> */}
       {/* <MinMax min='3' max='20' />
       <MinMax min='1' max='94' /> */}
       {/* <CompPadrao />
@@ -30,6 +35,6 @@ const style = StyleSheet.create({
     flexGrow: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    padding: 20
-  }
+    padding: 20,
+  },
 })
