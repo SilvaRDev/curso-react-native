@@ -4,7 +4,7 @@ import { useState } from 'react'
 import estilo from './estilo'
 import { Text, Button } from 'react-native'
 
-export default ({initial, step}) => {
+export default ({initial = 0, step = 1}) => {
   //let number = initial
   const [number, setNumber] = useState(initial)
 
