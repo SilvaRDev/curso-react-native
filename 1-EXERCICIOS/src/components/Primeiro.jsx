@@ -1,4 +1,6 @@
 import { Text } from 'react-native'
-import style from './estilo'
+import estilo from './estilo'
 
-export default () => <Text style={style.fontG}>Primeiro!</Text>
+export default () => {
+  <Text style={estilo.fontG}>Primeiro!</Text>
+}
