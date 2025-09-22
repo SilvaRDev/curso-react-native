@@ -17,7 +17,7 @@ const style = StyleSheet.create({
   FlexV3: {
     flexDirection: 'row',
     justifyContent: 'space-evenly',
-    alignItems: 'stretch',
+    alignItems: 'flex-start',
     height: 350,
     width: '100%',
     backgroundColor: '#000'
