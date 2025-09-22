@@ -1,11 +1,11 @@
 import { View, StyleSheet } from 'react-native'
 
-export default ({ cor }) => {
-  const lado = 50
+export default ({ cor, lado }) => {
+  const ladoProp = lado || 50 
   return (
     <View style={{
-      height: lado,
-      width: lado,
+      height: ladoProp,
+      width: ladoProp,
       backgroundColor: cor || '#000'
     }} />
   )

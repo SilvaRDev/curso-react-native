@@ -1,7 +1,8 @@
 import { StyleSheet } from 'react-native'
 import { SafeAreaView } from 'react-native-safe-area-context'
 
-import FlexBoxV2 from './src/components/Layout/FlexBoxV2'
+import FlexBoxV3 from './src/components/Layout/FlexBoxV3'
+// import FlexBoxV2 from './src/components/Layout/FlexBoxV2'
 // import FlexBoxV1 from './src/components/Layout/FlexBoxV1'
 // import Quadrado from './src/components/Layout/Quadrado'
 // import DigiteSeuNome from './src/components/DigiteSeuNome'
@@ -26,8 +27,9 @@ import Primeiro from './src/components/Primeiro' */
 export default function App() {
   return (
     <SafeAreaView style={style.App}>
-      <FlexBoxV2 />
+      <FlexBoxV3 />
       {/* <Aleatorio min={1} max={60} />
+      <FlexBoxV2 />
       <FlexBoxV1 />
       <DigiteSeuNome />
       <ListaProdutosV2 />
