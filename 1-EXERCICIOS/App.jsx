@@ -29,7 +29,7 @@ import Primeiro from './src/components/Primeiro' */
 export default function App() {
   return (
     <SafeAreaView style={style.App}>
-      <Mega qtDeNumeros={7} />
+      <Mega qtDeNumeros={12} />
       {/* <Aleatorio min={1} max={60} />
       <FlexBoxV4 />
       <FlexBoxV3 />
