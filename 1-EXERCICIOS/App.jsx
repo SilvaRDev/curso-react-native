@@ -1,7 +1,8 @@
 import { StyleSheet } from 'react-native'
 import { SafeAreaView } from 'react-native-safe-area-context'
 
-import Diferenciar from './src/components/Diferenciar'
+import ParImpar from './src/components/ParImpar'
+//import Diferenciar from './src/components/Diferenciar'
 // import ContadorV2 from './src/components/Contador/ContadorV2'
 // import Pai from './src/components/Indireta/Pai'
 // import Pai from './src/components/Direta/Pai'
@@ -16,8 +17,9 @@ import Primeiro from './src/components/Primeiro' */
 export default function App() {
   return (
     <SafeAreaView style={style.App}>
-      <Diferenciar />
+      <ParImpar num={5} />
       {/* <Aleatorio min={1} max={60} />
+      <Diferenciar />
       <ContadorV2 />
       <Pai />
       <Contador initial={19} step={5} />
