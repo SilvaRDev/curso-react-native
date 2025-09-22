@@ -1,7 +1,8 @@
 import { StyleSheet } from 'react-native'
 import { SafeAreaView } from 'react-native-safe-area-context'
 
-import ContadorV2 from './src/components/Contador/ContadorV2'
+import Diferenciar from './src/components/Diferenciar'
+// import ContadorV2 from './src/components/Contador/ContadorV2'
 // import Pai from './src/components/Indireta/Pai'
 // import Pai from './src/components/Direta/Pai'
 //import Contador from './src/components/Contador'
@@ -15,8 +16,9 @@ import Primeiro from './src/components/Primeiro' */
 export default function App() {
   return (
     <SafeAreaView style={style.App}>
-      <ContadorV2 />
+      <Diferenciar />
       {/* <Aleatorio min={1} max={60} />
+      <ContadorV2 />
       <Pai />
       <Contador initial={19} step={5} />
       <Contador initial={100} step={8} />
