@@ -1,8 +1,9 @@
 import { StyleSheet } from 'react-native'
 import { SafeAreaView } from 'react-native-safe-area-context'
 
-import Familia from './src/components/Relacao/Familia'
-import Membro from './src/components/Relacao/Membro'
+import UsuarioLogado from './src/components/UsuarioLogado'
+// import Familia from './src/components/Relacao/Familia'
+// import Membro from './src/components/Relacao/Membro'
 //import ParImpar from './src/components/ParImpar'
 //import Diferenciar from './src/components/Diferenciar'
 // import ContadorV2 from './src/components/Contador/ContadorV2'
@@ -19,6 +20,11 @@ import Primeiro from './src/components/Primeiro' */
 export default function App() {
   return (
     <SafeAreaView style={style.App}>
+      <UsuarioLogado usuario={{ nome: 'Gui', email: 'Gui@gui.com' }} />
+      <UsuarioLogado usuario={{ nome: 'Jão' }} />
+      <UsuarioLogado usuario={{ email: 'carlos@empresa.com' }} />
+      <UsuarioLogado usuario={{}} />
+      {/* <Aleatorio min={1} max={60} />
       <Familia >
         <Membro nome='Francisco' sobrenome='Arruda' />
         <Membro nome='Josefa' sobrenome='Arruda' />
@@ -29,7 +35,6 @@ export default function App() {
         <Membro nome='Guilherme' sobrenome='Da Silva' />
         <Membro nome='Alana' sobrenome='Da Silva' />
       </Familia>
-      {/* <Aleatorio min={1} max={60} />
       <ParImpar num={5} />
       <Diferenciar />
       <ContadorV2 />
