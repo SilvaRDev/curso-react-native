@@ -1,7 +1,8 @@
 import { StyleSheet } from 'react-native'
 import { SafeAreaView } from 'react-native-safe-area-context'
 
-import ListaProdutos from './src/components/Produtos/ListaProdutos'
+import ListaProdutosV2 from './src/components/Produtos/ListaProdutosV2'
+// import ListaProdutos from './src/components/Produtos/ListaProdutos'
 // import UsuarioLogado from './src/components/UsuarioLogado'
 // import Familia from './src/components/Relacao/Familia'
 // import Membro from './src/components/Relacao/Membro'
@@ -21,8 +22,9 @@ import Primeiro from './src/components/Primeiro' */
 export default function App() {
   return (
     <SafeAreaView style={style.App}>
-      <ListaProdutos />
+      <ListaProdutosV2 />
       {/* <Aleatorio min={1} max={60} />
+      <ListaProdutos />
       <UsuarioLogado usuario={{ nome: 'Gui', email: 'Gui@gui.com' }} />
       <UsuarioLogado usuario={{ nome: 'Jão' }} />
       <UsuarioLogado usuario={{ email: 'carlos@empresa.com' }} />
